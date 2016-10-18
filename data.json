@@ -1,0 +1,112 @@
+{
+  "name": "FinTechnologies",
+  "children": [
+    {
+      "name": "Data",
+      "children": [
+        {
+          "name": "Data Structure"
+        },
+        {
+          "name": "Big Data",
+          "dependsOn": [
+            "Machine Learning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "children": [
+        {
+          "name": "Algorithm",
+          "dependsOn": [
+            "Data Structure"
+          ]
+        },
+        {
+          "name": "Data Mining",
+          "children": [
+            {
+              "name": "Web Scraping"
+            }
+          ]
+        },
+        {
+          "name": "NLP",
+          "children": [
+            {
+              "name": "NLG",
+              "comments": "Natural Language Generation"
+            }
+          ],
+          "comments": "Natural Language Processing"
+        },
+        {
+          "name": "AI",
+          "comments": "Artificial Intelligence",
+          "children": [
+            {
+              "name": "Robotics"
+            }
+          ]
+        },
+        {
+          "name": "Supervised",
+          "children": [
+            {
+              "name": "Bayesian Network"
+            },
+            {
+              "name": "Neural Network",
+              "children": [
+                {
+                  "name": "Deep Learning"
+                }
+              ]
+            },
+            {
+              "name": "Decision Tree",
+              "children": [
+                {
+                  "name": "Classification"
+                },
+                {
+                  "name": "Regression"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unsupervised",
+          "children": [
+            {
+              "name": "Cluster Analysis"
+            }
+          ]
+        },
+        {
+          "name": "Reinforcement"
+        }
+      ],
+      "dependsOn": []
+    },
+    {
+      "name": "Cryptography",
+      "children": [],
+      "dependsOn": []
+    },
+    {
+      "name": "Blockchain",
+      "children": [
+        {
+          "name": "Bitcoin"
+        }
+      ]
+    },
+    {
+      "name": "API"
+    }
+  ]
+}
