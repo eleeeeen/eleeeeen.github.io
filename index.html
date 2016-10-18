@@ -11,7 +11,7 @@
         <div class="container-fluid">
             <div ng-app="ChartsApp">
 
-                <h1 class="text-center">Architecture Tree</h1>
+                <h1 class="text-center">Fintech Knowledge Tree</h1>
 
                 <div ng-controller="filterCtrl">
                     <ng-include src="'js/angular.architectureTree/templates/filter.html'"></ng-include>
@@ -33,12 +33,12 @@
                     </div>
                 </div>
 
-                <div ng-controller="undoCtrl">
+                <!-- <div ng-controller="undoCtrl">
                     <div ng-if="hasHistory()" class="json-upate-label bg-success">Updated JSON <a ng-click="undo()">(undo)</a></div>
-                </div>
+                </div> 
                 <div ng-controller="jsonDataCtrl">
                     <textarea id="json-data" class="form-control" ng-model="data" ng-blur="updateData()"></textarea>
-                </div>
+                </div> -->
             </div>
         </div>
         <script src="js/vendor/d3.v3.js"></script>
